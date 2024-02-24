@@ -1,0 +1,96 @@
+    <!-- Name: Bikash Shrestha,  University ID: 2407649 -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Forecast App</title>
+        <link rel="stylesheet" href="Bikash_Shrestha_2407649.css">
+    </head>
+
+    <body>
+        <main class="weather-panel">
+
+            <section class="search-section">
+                <input type="search" class="search-box" placeholder="e.g Paris">
+                <button class="search-button">Submit</button>
+            </section>
+
+            <p class="search-validation"></p>
+
+            <section class="container">
+                <section class="weather-description">
+                    <img alt="weather-icon" class="weather-icons">
+                    <span class="weather-state"></span>
+                </section>
+
+                <section class="city-weather">
+                    <span class="temperature"></span>
+                    <p>
+                        <span class="day"></span>,
+                        <span class="date"></span>
+                    </p>
+
+                    <section class="locations">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2838/2838912.png" alt="icon"
+                            class="location-symbol">
+                        <span class="location-name"></span>
+                    </section>
+                </section>
+            </section>
+
+            <hr class="line">
+
+            <section class="pwh">
+                <div class="icons">
+                    <img src="https://icon-library.com/images/pressure-icon/pressure-icon-17.jpg" alt="icons">
+                    <h1><span class="pressure"></span></h1>
+                    <p>Pressure</p>
+                </div>
+                <div class="icons">
+                    <img src="https://cdn-icons-png.flaticon.com/512/54/54298.png" alt="icons">
+                    <h1><span class="windspeed"></span></h1>
+                    <p>Wind Speed</p>
+                </div>
+                <div class="icons">
+                    <img src="https://cdn-icons-png.flaticon.com/512/219/219816.png" alt="icons">
+                    <h1><span class="humidity"></span></h1>
+                    <p>Humidity</p>
+                </div>
+            </section>
+
+            <button class="show_past_weather">Click Here to view Past Weather Data</button>
+
+            <section class="past_weather_data">
+
+                <button class="close_button">&times;</button>
+
+                <h2 class="past_heading"></h2>
+                <table class="past_weather_table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Weather Description</th>
+                            <th>Weather Icon</th>
+                            <th>Temperature</th>
+                            <th>Pressure</th>
+                            <th>Windspeed</th>
+                            <th>Humidity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </section>
+            <script src="Bikash_Shrestha_2407649.js"></script>
+        </main>
+
+        <footer>
+            Copyright&copy; Bikash Shrestha (2407649). All rights reserved.
+        </footer>
+
+    </body>
+
+    </html>
