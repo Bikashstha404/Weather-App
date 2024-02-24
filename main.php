@@ -107,7 +107,7 @@ if ($existingData) {
 } else {
     $newData = fetch_weather_data($city_name);
     if ($newData) {
-        $result = insert_weather_data($mysqli, $current_table, $newData); //Inserting new data into the current_weather_data
+        $result = insert_weather_data($mysqli, $current_table, $newData); //Inserting new data into the current_weather_datas
         if ($result) {
             //Changing the data coming from the OpenWeather API into database format through associative array
             $databaseFormatData = databaseFormatData($newData);
