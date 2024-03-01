@@ -1,4 +1,4 @@
-// Name: Bikash Shrestha,  University ID: 2407649
+// Name: Bikash Shrestha,
 //document.cookie = "__test=c01eb0612ba7ca7bf50a959571606f7b; expires=Sat, 19 Mar 2025 05:21:50 GMT; path=/";
 
 API_KEY = "5872be66452cabe6665e3480d7e88526";

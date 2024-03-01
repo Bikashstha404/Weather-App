@@ -1,5 +1,5 @@
 <?php
-// Name: Bikash Shrestha,  University ID: 2407649
+// Name: Bikash Shrestha
 
 $mysqli = connect_server("localhost", "id21870736_bikashshrestha", "Bikash@99"); 
 

@@ -1,5 +1,5 @@
 <?php
-// Name: Bikash Shrestha,  University ID: 2407649
+// Name: Bikash Shrestha
 
 function fetch_weather_data($city_name)
 {   

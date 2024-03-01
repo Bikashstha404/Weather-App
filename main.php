@@ -1,5 +1,5 @@
 <?php
-// Name: Bikash Shrestha,  University ID: 2407649
+// Name: Bikash Shrestha
 
 header("Access-Control-Allow-Origin: *"); //Controls which domain are allowed to access the resources and * means any domain allowed
 header("Content-Type: application/json"); //Change content type text/html to application/json. Now the content of the response is in JSON formats
